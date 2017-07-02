@@ -4,14 +4,226 @@
 	<title>Portfolio Website</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="/Users/shivamagarwal/Documents/web/practice/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-  	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-  	<script src="/Users/shivamagarwal/Documents/web/practice/bootstrap-3.3.7-dist/js/		bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="/Users/shivamagarwal/Documents/projects/portfolio/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="/Users/shivamagarwal/Documents/projects/portfolio/styleShiv.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="/Users/shivamagarwal/Documents/projects/portfolio/bootstrap-3.3.7-dist/js/		bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container">
-	<p>This is a basic portfolio website.</p>
-	
-</div>
+<header class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">
+			<span style="color: #5fef3b;font-size: 28px;font-weight: bold;">
+				Shivaay
+			</span>
+		</a>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<nav class="navbar-collapse collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a class="scrollable" href="#about">ABOUT</a></li>
+				<li><a href="#portfolio">PORTFOLIO</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<a href="#" id="about"></a>
+<main>
+	<header>
+		<div class="container" id="intro">
+			<div class="col-md-8">
+				<p id="aboutMe">
+				Web Developer and Programmer, with knowledge of data structures and algorithms, devoted to programming and back-end development.
+				</p>
+				<hr class="star-bright"><span id="pattern">&lt/&gt</span>
+				<span style="font-size:28px;">Shivam Agarwal</span>
+			</div>
+			<div class="col-md-4">
+				<img id="dp" class="img-thumbnail img-responsive" src="instaDp.jpg" alt="Shivam Agarwal" />
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container" id="portfolio">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>PORTFOLIO</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-sm-5">
+					<hr class="star-bright">
+				</div>
+				<div class="col-md-2 col-sm-2" id="pattern">
+					<span id="pattern">&lt/&gt</span>
+				</div>
+				<div class="col-md-5 col-sm-5">
+					<hr class="star-bright">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="thumbnail">
+						<img src="./portfolioPics/portfolio1.jpg">
+						<div class="caption">This is the first Project.</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="thumbnail">
+						<img src="./portfolioPics/portfolio2.jpg">
+						<div class="caption">This is the second Project.</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="thumbnail">
+						<img src="./portfolioPics/portfolio3.jpg">
+						<div class="caption">This is the third Project.</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="thumbnail">
+						<img src="./portfolioPics/portfolio4.jpg">
+						<div class="caption">This is the fourth Project.</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="thumbnail">
+						<img src="./portfolioPics/portfolio5.jpg">
+						<div class="caption">This is the fifth Project.</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="thumbnail">
+						<img src="./portfolioPics/portfolio6.jpg">
+						<div class="caption">This is the sixth Project.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container" id="contact">
+			<div class="row">
+				<h2>CONTACT ME :</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<hr class="star-bright">
+				</div>
+				<div class="col-md-2" id="pattern">
+					<span id="pattern">&lt/&gt</span>
+				</div>
+				<div class="col-md-5">
+					<hr class="star-bright">
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<form>
+						<table id="formTable">
+							<tr>
+								<td>
+									<input type="text" placeholder="Name" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="text" placeholder="Email Address">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="text" placeholder="Phone Number">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<textarea placeholder="Message"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input id="sendButton" type="submit" value="Send" />
+								</td>
+							</tr>	
+						</table>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<p>
+					Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
+					</p>
+					<p>
+						I promise to reply A.S.A.P.
+					</p>
+					<br>
+					<br> 
+					<p>
+						Note : Please do not send spam messages. Thank You. :)
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
+  	<div class="scroll-top">
+  		<a class="button scrollable" href="#top">
+  			<i class="fa fa-chevron-up"></i>
+  		</a>
+  	</div>
+</main>
+<footer>
+	<div class="footer-above">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6" style="text-align: center;">
+				<h3>ABOUT THIS PAGE :</h3>
+				<h5>Personal Porfolio of Shivam Agarwal</h5>
+				<h6>Developed by Shivam Agarwal</h6>
+			</div>
+			<div class="col-md-6" style="text-align: justify;">
+				<h3>AROUND THE WEB :</h3>				
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="footer-below">
+		<div class="container">
+		<p>
+			<h2>Shivam Agarwal <span>&copy</span> 2017 . All right reserved.</h2>
+		</p>
+		</div>
+	</div>
+</footer>
+<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><span style="font-size: 24px;font-weight: bold; color: white;">Shivaay</span></a>
+		</div>
+		<div class="navbar-right">
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><button type="button"><a href="#about">ABOUT</a></button></li>
+					<li><button type="button"><a href="#portfolio">PORTFOLIO</a></button></li>
+					<li><button type="button"><a href="#contact">CONTACT</a></button></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+</nav>
+ -->
 </body>
 </html>

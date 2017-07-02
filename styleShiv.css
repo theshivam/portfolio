@@ -1,0 +1,88 @@
+#about{
+	height: 80px;
+	display: block;
+}
+#aboutMe{
+	padding:40px;
+	/*margin : 30px;*/
+	text-align: justify;
+	color: #FFF;
+	font-size:20px;
+}
+.star-bright{
+	color: grey;
+	border: 3px solid grey;
+	/*width: 70%;*/
+	text-align: left;
+}
+#pattern{
+	text-align : center;
+	font-size : 28px;
+	font-weight: bold;
+}
+#intro{
+	background-color: #aaa;
+	display: block;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+body{
+	background-color: #888;
+}
+#dp{
+	height: 80%;
+	width: 80%;
+	align-self: center;
+	padding: 2px;
+	margin: 20px;
+}
+h2{
+	text-align: center;
+}
+#portfolio{
+	background-color: white;
+	display: block;
+}
+#contact{
+	background-color: #FFF;
+	border: 1px solid #888;
+}
+#formTable{
+	border: 0px;
+	width: 100%;
+}
+#formTable input{
+	width: 70%;
+	height: 40px;
+	font-size: 22px;
+	border-top: 0;
+	border-bottom: 1px solid #aaa;
+	border-left: 0px;
+	border-right: 0px;
+}
+#formTable textarea{
+	width: 70%;
+	height: 130px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 1px solid #aaa;
+}
+#sendButton{
+	width: 10%;
+}
+.footer-above{
+	background-color: #aaa;
+}
+.footer-below{
+	background-color: #722872;
+	color: #FFF;
+	margin-top: 0px;
+	padding-top: 0px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+main section{
+	/*background-color: #eee;*/
+}
