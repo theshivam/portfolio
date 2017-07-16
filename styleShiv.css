@@ -1,24 +1,69 @@
+#headerNavBar{
+	background-color: #722872;
+	height: 80px; 
+}
+#logo{
+	margin-top: 18px;
+	margin-left: 20px;
+}
 #about{
 	height: 80px;
 	display: block;
 }
+navbarHyperlinks{
+/*	color:#722872;
+	background:#bbb;
+	font-size: 32px;
+	box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+*/  }
+}
+#myNavbar{
+	margin-top:18px;
+	margin-right:20px;
+	color: #FFF;
+}
+#myNavbar a:active{
+	color: black;
+}
 #aboutMe{
 	padding:40px;
 	/*margin : 30px;*/
-	text-align: justify;
+	text-align: right;
+	line-height: 30px;
 	color: #FFF;
 	font-size:20px;
+}
+#dividerSingle{
+	/*text-align: right;*/
+	white-space: nowrap;
+	display: inline;
 }
 .star-bright{
 	color: grey;
 	border: 3px solid grey;
-	/*width: 70%;*/
-	text-align: left;
+	width: 80%;
+	max-width: 512px;
+	/*display: inline;*/
+}
+/*#onlyPattern{*/
+	/*text-align: center;*/
+/*}*/
+.star-bright-full{
+	border: 3px solid grey;
+	max-width: 1500px;
+	margin-left : 50px;
+	margin-right: 70px;
 }
 #pattern{
 	text-align : center;
-	font-size : 28px;
+	font-size : 34px;
 	font-weight: bold;
+	display: inline;
+}
+#shivamAgarwal{
+	font-size : 40px;
+	text-align: right;
+	color: #108;
 }
 #intro{
 	background-color: #aaa;
@@ -28,6 +73,7 @@
 }
 body{
 	background-color: #888;
+	position: relative;
 }
 #dp{
 	height: 80%;
@@ -35,6 +81,7 @@ body{
 	align-self: center;
 	padding: 2px;
 	margin: 20px;
+	border: 2px solid #FFF;
 }
 h2{
 	text-align: center;
@@ -42,6 +89,18 @@ h2{
 #portfolio{
 	background-color: white;
 	display: block;
+	padding-bottom: 20px;
+}
+#portfolioPics{
+	height: 70%;
+	width: 80%;
+	padding:5px;
+	margin: 10px;
+	text-align: center;
+	border: 1px solid grey;
+}
+#portfolioPics img{
+
 }
 #contact{
 	background-color: #FFF;
@@ -56,7 +115,7 @@ h2{
 	height: 40px;
 	font-size: 22px;
 	border-top: 0;
-	border-bottom: 1px solid #aaa;
+	border-bottom: 0px solid #aaa;
 	border-left: 0px;
 	border-right: 0px;
 }
@@ -66,10 +125,22 @@ h2{
 	border-left: 0px;
 	border-right: 0px;
 	border-top: 0px;
-	border-bottom: 1px solid #aaa;
+	border-bottom: 0px solid #aaa;
 }
 #sendButton{
-	width: 10%;
+	max-width: 70px;
+	background-color: grey;
+	border-radius: 7px;
+	margin-top: 8px;
+	position: relative;
+}
+#contactText{
+	line-height: 30px;
+	text-align: left;
+	padding-left: 15px;
+	padding-top:10px;
+	/*margin-left: 5px;*/
+	font-size: 16px;
 }
 .footer-above{
 	background-color: #aaa;
@@ -83,6 +154,61 @@ h2{
 	width: 100%;
 	text-align: center;
 }
+.footer-below h3{
+	font-size: 18px;
+}
+.footer-below a{
+	color: black;
+}
+/*.button .social{
+	font-size: 24px;
+*/}
 main section{
 	/*background-color: #eee;*/
 }
+/*////////////////////////////////////////*/
+.form-item{
+	position:relative;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #bbb;
+}
+.form-item input, .form-item textarea{
+	z-index:1;
+	position:relative;
+	padding-right:0;
+	padding-left:0;
+	border:0;
+	border-radius:0;
+	font-size:1.5em;
+	background:0 0;
+	box-shadow:none!important;
+	resize:none;
+	width:100%;
+}
+.form-item input:focus, .form-item textarea:focus{
+	outline:0
+}
+.form-item label{
+	display:block;
+	z-index:0;
+	position:relative;
+	top:2em;
+	margin:0;
+	font-size:.85em;
+	line-height:1.764705882em;
+	vertical-align:middle;
+	vertical-align:baseline;
+	opacity:0;
+	-webkit-transition:top .3s ease,opacity .3s ease;
+	transition:top .3s ease,opacity .3s ease;
+}
+.form-item-filled label{
+	top:0;
+	opacity:1;
+	color:#aaa;
+}
+.form-item-focused label{
+	color:#722872;
+}
+/*//////////////////////////////////////////////*/
